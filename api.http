@@ -1,0 +1,10 @@
+GET http://localhost:3000
+####
+POST http://localhost:3000/send-email
+Content-Type: application/json
+
+{
+    "receiver": "kairemor@gmail.com",
+    "subject": "Collobaration from kairmor8@gmail.com",
+    "content": "Content lorem ipsum dolor sit amet"
+}
