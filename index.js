@@ -1,9 +1,11 @@
 require('dotenv').config();
 const express = require('express');
 const nodemailer = require('nodemailer');
+const cors = require('cors');
 const app = express();
 
 app.use(express.json()); // Middleware to parse JSON bodies
+app.use(cors());
 
 // Set up Gmail SMTP transporter configuration
 const transporter = nodemailer.createTransport({

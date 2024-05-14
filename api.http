@@ -8,3 +8,12 @@ Content-Type: application/json
     "subject": "Collobaration from kairmor8@gmail.com",
     "content": "Content lorem ipsum dolor sit amet"
 }
+####
+POST https://services-y4sg.onrender.com/send-email
+Content-Type: application/json
+
+{
+    "receiver": "kairemor@gmail.com",
+    "subject": "Collobaration from kairmor8@gmail.com",
+    "content": "Content lorem ipsum dolor sit amet"
+}
