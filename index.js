@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const nodemailer = require('nodemailer');
 const app = express();
@@ -8,8 +9,8 @@ app.use(express.json()); // Middleware to parse JSON bodies
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'debughelp1@gmail.com', // Your Gmail address
-        pass: 'gztzxlsqpfaciywg' // Your app password
+        user:  process.env.EMAIL , // Your Gmail address
+        pass:  process.env.APP_PASSWORD  // Your app password
     }
 });
 
