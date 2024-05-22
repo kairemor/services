@@ -17,3 +17,73 @@ Content-Type: application/json
     "subject": "Collobaration from kairmor8@gmail.com",
     "content": "Content lorem ipsum dolor sit amet"
 }
+
+
+####
+POST http://localhost:3000/tweets
+Content-Type: application/json
+
+{
+"tweets": [
+    {"text": "The evolution of web dev over the past decade is remarkable. From HTML5 to modern JavaScript frameworks like React and Angular!"},
+    {"text": "Open-source contributions in cloud are so rewarding! Platforms like OpenStack and Kubernetes thrive because of the community."},
+    {"text": "Exploring microservices in mobile dev. Who else is a fan? They help in scaling and maintaining large applications efficiently."},
+    {"text": "The importance of community in mobile dev can't be overstated. Communities like Flutter and React Native are driving innovation."},
+    {"text": "What features would you like to see in future system design tools? Improved support for microservices and cloud-native patterns?"},
+    {"text": "Community contributions in web dev make a huge difference. Projects like Bootstrap and Vue.js wouldn't be where they are without it."},
+    {"text": "Building scalable solutions in devops. Tips and tricks? Use CI/CD pipelines and infrastructure as code for better scalability."},
+    {"text": "The future of cloud looks bright with these innovations. Serverless computing and edge computing are game-changers!"},
+    {"text": "Common pitfalls in devops and how to avoid them. Avoid manual configurations and ensure proper monitoring and logging."},
+    {"text": "Cloud-native development in devops is transforming the industry. Leveraging containers and orchestration tools like Kubernetes is key."},
+    {"text": "Cloud-native development in devops is transforming the industry. Automation and self-healing systems are becoming the norm."},
+    {"text": "Common pitfalls in mobile dev and how to avoid them. Ensure proper testing across different devices and operating systems."},
+    {"text": "Career tips for those pursuing mobile dev. Stay updated with the latest frameworks and always focus on user experience."},
+    {"text": "Building scalable solutions in system design. Tips and tricks? Focus on decoupling components and using distributed systems."},
+    {"text": "Optimizing performance in mobile dev. Share your tips! Use native components and optimize resource usage for better performance."},
+    {"text": "Attending a conference on computer science. Looking forward to learning and networking! Great way to stay ahead in the field."},
+    {"text": "Exploring microservices in devops. Who else is a fan? They allow for better fault isolation and independent deployments."},
+    {"text": "How do you approach debugging in web dev? Use browser dev tools and logging to trace issues effectively."},
+    {"text": "Collaboration tools that make mobile dev easier. Tools like Slack, Jira, and GitHub streamline communication and project management."},
+    {"text": "Exploring microservices in system design. Who else is a fan? They enable better scalability and maintainability of large systems."},
+    {"text": "The intersection of computer science and other disciplines is fascinating. Fields like bioinformatics and computational physics are booming."},
+    {"text": "The future of mobile dev looks bright with these innovations. AR, VR, and AI integrations are leading the way."},
+    {"text": "The importance of community in computer science can't be overstated. Open-source projects and forums like Stack Overflow are invaluable."},
+    {"text": "Exploring serverless architecture in web dev. Anyone else? It allows developers to focus on code without managing servers."},
+    {"text": "The intersection of computer science and other disciplines is fascinating. AI and machine learning are transforming healthcare and finance."},
+    {"text": "Open-source contributions in mobile dev are so rewarding! Projects like Apache Cordova and Ionic benefit from global collaboration."},
+    {"text": "Excited to delve deeper into computer science this weekend. Any recommendations? Check out the latest in quantum computing and AI."},
+    {"text": "Career tips for those pursuing web dev. Master the fundamentals of HTML, CSS, and JavaScript before diving into frameworks."},
+    {"text": "What features would you like to see in future devops tools? Better integration with AI for predictive maintenance and automation."},
+    {"text": "Breaking down complex concepts in web dev for beginners. Start with understanding the DOM and how browsers render pages."},
+    {"text": "How do you approach debugging in system design? Use design patterns and architectural principles to isolate and resolve issues."},
+    {"text": "What do you think about the latest updates in mobile dev? Flutter 3 and SwiftUI are bringing exciting new features to the table."},
+    {"text": "Open-source contributions in cloud are so rewarding! Projects like OpenShift and Cloud Foundry thrive because of community support."},
+    {"text": "What do you think about the latest updates in cloud? The rise of hybrid cloud solutions is making waves in the industry."},
+    {"text": "The role of AI in system design is expanding rapidly. What's next? Expect more intelligent automation and predictive analytics."},
+    {"text": "The impact of cloud on everyday life. From online storage to streaming services, cloud technology is integral to our daily activities."},
+    {"text": "Collaboration tools that make web dev easier. Tools like Figma for design and GitHub for version control streamline the process."},
+    {"text": "How do you keep your skills sharp in computer science? Continuous learning through courses, certifications, and hands-on projects."},
+    {"text": "The synergy between web dev and DevOps is powerful. Continuous integration and deployment streamline the development lifecycle."},
+    {"text": "Innovations in computer science are driving the tech industry forward. Quantum computing and blockchain are among the top disruptors."},
+    {"text": "Open-source contributions in mobile dev are so rewarding! Platforms like React Native and Xamarin thrive because of open-source efforts."},
+    {"text": "The future of computer science looks bright with these innovations. AI, IoT, and quantum computing are at the forefront."},
+    {"text": "Common pitfalls in devops and how to avoid them. Ensure proper communication between teams and automate repetitive tasks."},
+    {"text": "The impact of mobile dev on modern tech is undeniable. Thoughts? Mobile apps have revolutionized how we interact with technology."},
+    {"text": "Building scalable solutions in computer science. Tips and tricks? Use cloud services and microservices architecture for scalability."},
+    {"text": "Open-source contributions in cloud are so rewarding! Projects like Docker and Kubernetes are sustained by community contributions."},
+    {"text": "What's the biggest challenge you've faced in computer science recently? Keeping up with the rapid pace of technological advancements."},
+    {"text": "Top resources for learning cloud: 1. AWS Certified Solutions Architect. 2. Google Cloud Professional Data Engineer. 3. Azure Fundamentals."},
+    {"text": "What do you think about the latest updates in devops? The integration of AI and machine learning in DevOps processes is intriguing."},
+    {"text": "Cloud-native development in cloud is transforming the industry. Embracing containerization and microservices is key to modernization."}
+  ]
+}
+
+####
+
+GET http://localhost:3000/tweets/random
+
+
+
+####
+####
+GET https://services-y4sg.onrender.com/tweets/random
